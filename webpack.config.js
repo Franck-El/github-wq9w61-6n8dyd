@@ -18,7 +18,7 @@ module.exports = {
   ],
   output: {
     // sortir un fichier bundle.js dans __dirname/dist (__dirname etant le dossier courant), path.resolve le transforme en chemin absolu, necessaire ici
-    filename: 'bundle.js',
+    filename: '[name].bundle.js', // [name] car il y aura un bundle par entry
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
