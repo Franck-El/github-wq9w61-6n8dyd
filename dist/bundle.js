@@ -19,16 +19,6 @@ eval("/* module decorator */ module = __webpack_require__.nmd(module);\nvar __WE
 
 /***/ }),
 
-/***/ "./src/style.css":
-/*!***********************!*\
-  !*** ./src/style.css ***!
-  \***********************/
-/***/ (() => {
-
-eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\\nHookWebpackError: Cannot find module './my-font.woff2'\\n    at tryRunOrWebpackError (/home/projects/github-wq9w61-6n8dyd/node_modules/webpack/lib/HookWebpackError.js:88:9)\\n    at __webpack_require_module__ (/home/projects/github-wq9w61-6n8dyd/node_modules/webpack/lib/Compilation.js:5055:12)\\n    at __webpack_require__ (/home/projects/github-wq9w61-6n8dyd/node_modules/webpack/lib/Compilation.js:5012:18)\\n    at eval (/home/projects/github-wq9w61-6n8dyd/node_modules/webpack/lib/Compilation.js:5083:20)\\n    at symbolIterator (/home/projects/github-wq9w61-6n8dyd/node_modules/neo-async/async.js:3485:9)\\n    at done (/home/projects/github-wq9w61-6n8dyd/node_modules/neo-async/async.js:3527:9)\\n    at Hook.eval [as callAsync] (eval at _0x38a104 (https://github-wq9w61-6n8dyd.w.staticblitz.com/blitz.bbb482e7415e406cfc62838751ca694c1dc24cf6.js:15:320895), <anonymous>:15:1)\\n    at eval (/home/projects/github-wq9w61-6n8dyd/node_modules/webpack/lib/Compilation.js:4990:43)\\n    at symbolIterator (/home/projects/github-wq9w61-6n8dyd/node_modules/neo-async/async.js:3482:9)\\n    at timesSync (/home/projects/github-wq9w61-6n8dyd/node_modules/neo-async/async.js:2297:7)\\n-- inner error --\\nError: Cannot find module './my-font.woff2'\\n    at webpackMissingModule (/home/projects/github-wq9w61-6n8dyd/node_modules/css-loader/dist/cjs.js!/home/projects/github-wq9w61-6n8dyd/src/style.css:16:113)\\n    at Module.eval (/home/projects/github-wq9w61-6n8dyd/node_modules/css-loader/dist/cjs.js!/home/projects/github-wq9w61-6n8dyd/src/style.css:16:203)\\n    at eval (/home/projects/github-wq9w61-6n8dyd/node_modules/webpack/lib/javascript/JavascriptModulesPlugin.js:441:11)\\n    at Hook.eval [as call] (eval at _0x38a104 (https://github-wq9w61-6n8dyd.w.staticblitz.com/blitz.bbb482e7415e406cfc62838751ca694c1dc24cf6.js:15:320895), <anonymous>:7:1)\\n    at eval (/home/projects/github-wq9w61-6n8dyd/node_modules/webpack/lib/Compilation.js:5057:39)\\n    at tryRunOrWebpackError (/home/projects/github-wq9w61-6n8dyd/node_modules/webpack/lib/HookWebpackError.js:83:7)\\n    at __webpack_require_module__ (/home/projects/github-wq9w61-6n8dyd/node_modules/webpack/lib/Compilation.js:5055:12)\\n    at __webpack_require__ (/home/projects/github-wq9w61-6n8dyd/node_modules/webpack/lib/Compilation.js:5012:18)\\n    at eval (/home/projects/github-wq9w61-6n8dyd/node_modules/webpack/lib/Compilation.js:5083:20)\\n    at symbolIterator (/home/projects/github-wq9w61-6n8dyd/node_modules/neo-async/async.js:3485:9)\\n\\nGenerated code for /home/projects/github-wq9w61-6n8dyd/node_modules/css-loader/dist/cjs.js!/home/projects/github-wq9w61-6n8dyd/src/style.css\\n 1 | __webpack_require__.r(__webpack_exports__);\\n 2 | /* harmony export */ __webpack_require__.d(__webpack_exports__, {\\n 3 | /* harmony export */   \\\"default\\\": () => (__WEBPACK_DEFAULT_EXPORT__)\\n 4 | /* harmony export */ });\\n 5 | /* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \\\"/home/projects/github-wq9w61-6n8dyd/node_modules/css-loader/dist/runtime/noSourceMaps.js\\\");\\n 6 | /* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\\n 7 | /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \\\"/home/projects/github-wq9w61-6n8dyd/node_modules/css-loader/dist/runtime/api.js\\\");\\n 8 | /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\\n 9 | /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \\\"/home/projects/github-wq9w61-6n8dyd/node_modules/css-loader/dist/runtime/getUrl.js\\\");\\n10 | /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\\n11 | // Imports\\n12 | \\n13 | \\n14 | \\n15 | var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ Object(function webpackMissingModule() { var e = new Error(\\\"Cannot find module './my-font.woff2'\\\"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), __webpack_require__.b);\\n16 | var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ Object(function webpackMissingModule() { var e = new Error(\\\"Cannot find module './my-font.woff'\\\"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), __webpack_require__.b);\\n17 | var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ Object(function webpackMissingModule() { var e = new Error(\\\"Cannot find module './icon.png'\\\"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), __webpack_require__.b);\\n18 | var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\\n19 | var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\\n20 | var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\\n21 | var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\\n22 | // Module\\n23 | ___CSS_LOADER_EXPORT___.push([module.id, \\\"@font-face {\\\\r\\\\n  font-family: 'MyFont';\\\\r\\\\n  src: url(\\\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \\\") format('woff2'),\\\\r\\\\n    url(\\\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \\\") format('woff');\\\\r\\\\n  font-weight: 600;\\\\r\\\\n  font-style: normal;\\\\r\\\\n}\\\\r\\\\n.hello {\\\\r\\\\n  color: red;\\\\r\\\\n  font-family: 'MyFont';\\\\r\\\\n  background: url(\\\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \\\");\\\\r\\\\n}\\\\r\\\\n\\\", \\\"\\\"]);\\n24 | // Exports\\n25 | /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\\n26 | \");\n\n//# sourceURL=webpack://getting-started-using-a-configuration/./src/style.css?");
-
-/***/ }),
-
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -36,18 +26,7 @@ eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extrac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _icon_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./icon.jpg */ \"./src/icon.jpg\");\n\n\n\n\nfunction component() {\n  const element = document.createElement('div');\n\n  // Lodash, now imported by this script\n  element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join(['Hello', 'webpack'], ' ');\n  element.classList.add('hello');\n\n  // Add the image to our existing div.\n  const myIcon = new Image();\n  myIcon.src = _icon_jpg__WEBPACK_IMPORTED_MODULE_2__;\n\n  element.appendChild(myIcon);\n\n  return element;\n}\n\ndocument.body.appendChild(component());\n\n\n//# sourceURL=webpack://getting-started-using-a-configuration/./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/icon.jpg":
-/*!**********************!*\
-  !*** ./src/icon.jpg ***!
-  \**********************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"78f668df3aa99291273e.jpg\";\n\n//# sourceURL=webpack://getting-started-using-a-configuration/./src/icon.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n\n\nfunction component() {\n  const element = document.createElement('div');\n\n  // Lodash, now imported by this script\n  element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join(['Hello', 'webpack'], ' ');\n  element.classList.add('hello');\n\n  return element;\n}\n\ndocument.body.appendChild(component());\n\n\n//# sourceURL=webpack://getting-started-using-a-configuration/./src/index.js?");
 
 /***/ })
 
@@ -140,26 +119,6 @@ eval("module.exports = __webpack_require__.p + \"78f668df3aa99291273e.jpg\";\n\n
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
