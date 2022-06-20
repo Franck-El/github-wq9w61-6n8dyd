@@ -1,8 +1,14 @@
 const path = require('path'); // require car webpack fonctionne sous node
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
   entry: './src/index.js', // commencer par le fichier index.js (chemin relatif)
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'Output Management',
+    }),
+  ],
   output: {
     // sortir un fichier bundle.js dans __dirname/dist (__dirname etant le dossier courant), path.resolve le transforme en chemin absolu, necessaire ici
     filename: 'bundle.js',
