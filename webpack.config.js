@@ -3,10 +3,17 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './src/index.js', // commencer par le fichier index.js (chemin relatif)
+  entry: {
+    index: './src/index.js',
+    print: './src/print.js',
+  }, // charger ces fichiers (chemin relatif)
+  devtool: 'inline-source-map', // permet d'indiquer la source des erreurs
+  devServer: {
+    static: './dist',
+  },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Output Management',
+      title: 'Development',
     }),
   ],
   output: {
@@ -14,5 +21,8 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
+  },
+  optimization: {
+    runtimeChunk: 'single',
   },
 };
