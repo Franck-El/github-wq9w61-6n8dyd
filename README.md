@@ -19,3 +19,6 @@ Ca marche !... MAIS on voudrait que celà soit automatisé pour que cela recompi
 12/ dans package.json ajouter le script "serve": "webpack-dev-server"
 13/ npm run serve : pour l'instant webpack recompile le code à chaque fois mais en mémoire, il relance psa build, si on regarde bundle.js lui il change pas
 14/ ajouter "publicPath: 'public'" dans l'output de webpack.config.js pour dire à webpack que ce qu'il compile pour le dev server doit être sauvé dans le dossier public
+
+
+<!-- N'oublie pas le DocType dans le html, sinon ça marche mais le navigateur émule le fonctionnement des plus vieux navigateurs incapable d'interpréter les standard W3C -->
